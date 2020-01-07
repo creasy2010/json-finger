@@ -5,6 +5,7 @@
     "sourceMap": false,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
+    "lib": ["esnext"],
     "outDir": "./lib",
     "declarationDir":"./declarations",
     "declaration": true

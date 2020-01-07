@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`option 测试 beforeFinger 1`] = `
+Array [
+  "a[string]",
+  "b[string]",
+]
+`;
+
+exports[`option 测试 beforeFinger 2`] = `"a[string]b[string]"`;
+
+exports[`option 测试 ignore 1`] = `""`;

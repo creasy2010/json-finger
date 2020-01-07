@@ -1,11 +1,11 @@
 {
   "name": "json-finger",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.0",
   "description": "根据json结构提取finger对比两个json结构是否一致",
   "main": "lib/index.js",
   "typings": "declarations/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,12 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/creasy2010/json-finger/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.21",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.4"
   },
   "homepage": "https://github.com/creasy2010/json-finger#readme"
 }
